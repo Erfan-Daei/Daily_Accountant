@@ -43,7 +43,7 @@ namespace Accountant.Main
         {
             MailMessage email = new MailMessage()
             {
-                From = new MailAddress("erfan.daei.program@gmail.com"),
+                From = new MailAddress("**********************"),
                 Subject = "Accountant One-Time Password",
                 Body = $"This Is Your One-Time Password : {otp}",
             };
@@ -52,7 +52,7 @@ namespace Accountant.Main
             SmtpClient smtp = new SmtpClient("smtp.gmail.com")
             {
                 Port = 587,
-                Credentials = new NetworkCredential("erfan.daei.program@gmail.com", "pmyg hags ufvo sctj"),
+                Credentials = new NetworkCredential("*******************", "*************"),
                 EnableSsl = true,
                 Timeout = 10000,
             };
